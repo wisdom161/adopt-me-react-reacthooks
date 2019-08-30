@@ -32,6 +32,7 @@ class ErrorBoundary extends Component {
       )
     }
     return this.props.children
+    // always have to return something for a render method - it has to pass through if no errors are found
   }
 }
 
